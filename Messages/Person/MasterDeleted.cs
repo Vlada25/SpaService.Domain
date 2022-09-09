@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace SpaService.Domain.Messages.Person
 {
-    internal class MasterDeleted
+    public class MasterDeleted
     {
+        public Guid Id { get; set; }
     }
 }

@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace SpaService.Domain.Messages.Person
 {
-    internal class MasterUpdated
+    public class MasterUpdated
     {
+        public Guid Id { get; set; }
+        public string Name { get; set; }
+        public string Surname { get; set; }
     }
 }
