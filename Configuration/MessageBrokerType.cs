@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace SpaService.Domain.Configuration
 {
-    public enum BrokerTypes
+    internal enum MessageBrokerType
     {
         RabbitMQ,
-        AzureServiceBus,
-        InMemory,
-        SQS
+        AzureServiceBus
     }
 }

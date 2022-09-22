@@ -7,7 +7,15 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <AssemblyVersion></AssemblyVersion>
     <FileVersion></FileVersion>
-    <Version>1.0.4</Version>
+    <Version>1.0.9</Version>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit" Version="8.0.6" />
+    <PackageReference Include="MassTransit.Azure.ServiceBus.Core" Version="8.0.6" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="8.0.6" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+  </ItemGroup>
 
 </Project>
