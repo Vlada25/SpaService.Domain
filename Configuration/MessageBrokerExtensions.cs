@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace SpaService.Domain.Configuration
 {
-    public static class MessageBrokerExtensions
+    public static class MessageBrokerExtensions // ServiCollectionExtensions
     {
         public static void ConfigureMessageBroker(this IServiceCollection services, 
             IConfiguration configuration,

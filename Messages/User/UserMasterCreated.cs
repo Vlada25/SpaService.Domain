@@ -12,5 +12,6 @@ namespace SpaService.Domain.Messages.User
         public string Surname { get; set; }
         public string Name { get; set; }
         public string MiddleName { get; set; }
+        public Guid AddressId { get; set; }
     }
 }
